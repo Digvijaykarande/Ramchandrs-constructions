@@ -1,8 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
+:root {
+  /* Brand */
+  --color-primary: #F2994A;        /* Construction Orange */
+  --color-primary-600: #DB7F2E;
+  --color-secondary: #2F3B52;      /* Steel Navy */
+  --color-accent: #F2C94C;         /* Safety Yellow (use sparingly) */
+
+  /* Neutrals */
+  --color-bg: #FFFFFF;             /* App background */
+  --color-surface: #F6F7F9;        /* Cards / sections */
+  --color-line: #E6E8EC;           /* Dividers */
+  --color-text: #1F2937;           /* Primary text */
+  --color-text-dim: #4B5563;       /* Secondary text */
+
+  /* States */
+  --color-success: #2E7D32;
+  --color-danger: #D32F2F;
+  --color-warning: #ED6C02;
+  --color-info: #0277BD;
+
+  /* Elevation / shadow */
+  --shadow-1: 0 1px 2px rgba(0,0,0,0.06);
+  --shadow-2: 0 4px 12px rgba(0,0,0,0.08);
+  
+  /* Radius & spacing */
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-lg: 20px;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
 }
+
 body{
-    width: 100%;
-    height: 100%;
+  margin: 0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0F141C;
+    --color-surface: #161C25;
+    --color-line: #2A3443;
+    --color-text: #E6EAF0;
+    --color-text-dim: #A9B4C2;
+  }
 }
