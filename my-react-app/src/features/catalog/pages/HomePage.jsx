@@ -6,19 +6,19 @@ const slides = [
     id: 1,
     title: "Build Your Dream Project",
     desc: "Shop cement, steel, and hardware at best prices.",
-    img: "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+    img: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg",
   },
   {
     id: 2,
     title: "Quality Materials, Trusted Brands",
     desc: "Iron rods, pipes, paints and more, all in one place.",
-    img: "https://plus.unsplash.com/premium_photo-1681989490797-dbe51c438b61?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://images.pexels.com/photos/162639/digger-machine-machinery-construction-162639.jpeg",
   },
   {
     id: 3,
     title: "From Foundation to Finish",
     desc: "Get everything you need for your construction journey.",
-    img: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://images.pexels.com/photos/32865462/pexels-photo-32865462.jpeg",
   },
 ];
 
