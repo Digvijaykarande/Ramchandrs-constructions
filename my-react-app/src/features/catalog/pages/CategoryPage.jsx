@@ -2,12 +2,12 @@ import React from "react";
 import "../../../styles/CategoriesPage.css";
 
 const categories = [
-  { name: "Cement", img: "https://img.icons8.com/ios-filled/100/000000/concrete-truck.png" },
-  { name: "Steel & Iron", img: "https://img.icons8.com/ios-filled/100/000000/steel.png" },
+  { name: "Cement", img: "https://img.icons8.com/?size=100&id=sGNseKBhSubP&format=png&color=000000" },
+  { name: "Steel & Iron", img: "https://img.icons8.com/?size=100&id=DzecD3VlJ1E6&format=png&color=000000" },
   { name: "Bricks & Blocks", img: "https://img.icons8.com/ios-filled/100/000000/brick-wall.png" },
   { name: "Hardware Tools", img: "https://img.icons8.com/ios-filled/100/000000/hammer.png" },
-  { name: "Safety Equipment", img: "https://img.icons8.com/ios-filled/100/000000/safety-helmet.png" },
-  { name: "Machinery Rental", img: "https://img.icons8.com/ios-filled/100/000000/excavator.png" },
+  { name: "Safety Equipment", img: "https://img.icons8.com/?size=100&id=wD6ehg7PoV8r&format=png&color=000000" },
+  { name: "Machinery Rental", img: "https://img.icons8.com/?size=100&id=q4C3TMQi3boG&format=png&color=000000" },
 ];
 
 function CategoriesPage() {
