@@ -127,12 +127,21 @@ a{
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 580px) {
   .navbar__logo{font-size: 1.5rem;}
+  .navbar{
+    height: 10vh;
+    flex-direction: column;
+  }
   .navbar__links {
-    display: none;
+
+   
   }
   .navbar__toggle {
     display: block;
+  }
+  .navbar__logo {
+    font-size: 1.2rem;
+    font-family: system-ui;
   }
 }
