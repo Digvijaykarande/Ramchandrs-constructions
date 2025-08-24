@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../styles/AboutPage.css"; // Ensure you have this CSS file for styling
+import "../../../styles/AboutPage.css"; 
 
 function AboutPage() {
   return (

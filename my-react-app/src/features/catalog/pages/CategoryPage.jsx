@@ -17,7 +17,7 @@ function CategoriesPage() {
       <div className="categories-grid">
         {categories.map((cat, index) => (
           <div className="category-card" key={index}>
-            <img src={cat.img} alt={cat.name} className="category-img" />
+            <img src={cat.img} alt={cat.name} loading="lazy" className="category-img" />
             <h3>{cat.name}</h3>
           </div>
         ))}

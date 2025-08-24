@@ -6,6 +6,9 @@
   --gray: #64748b;       /* text gray */
 }
 
+a{
+  text-decoration: none;
+}
 /* Navbar container */
 .navbar {
   display: flex;
@@ -42,6 +45,9 @@
   gap: 1.25rem;
   margin: 0;
   padding: 0;
+  align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar__links li a {

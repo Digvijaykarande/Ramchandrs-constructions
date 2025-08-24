@@ -7,6 +7,7 @@ import CheckoutPage from '../features/cart/pages/CheckoutPage';
 import LoginPage from '../features/auth/pages/LoginPage';
 import RegisterPage from '../features/auth/pages/RegisterPage';
 import AboutPage from '../features/catalog/pages/AboutPage';
+import ProductData from '../components/molecules/ProductData';
 
 
 export function AppRoutes() {
@@ -20,6 +21,8 @@ export function AppRoutes() {
       <Route path="/login" element={<LoginPage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/register" element={<RegisterPage />} />
+
+      <Route path="/product/:id" element={<ProductData />} />
     </Routes>
   );
 }

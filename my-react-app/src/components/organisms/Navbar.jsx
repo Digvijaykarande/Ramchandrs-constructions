@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       {/* Logo */}
-      <div className="navbar__logo">Ramchandra Constructions</div>
+      <a href="/"><div className="navbar__logo">Ramchandra Constructions</div></a>
 
       {/* Desktop Links */}
       <ul className="navbar__links">

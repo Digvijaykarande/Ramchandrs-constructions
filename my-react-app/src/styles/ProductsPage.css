@@ -36,7 +36,6 @@
   height: 160px;
   object-fit: cover;
   border-radius: 10px;
-  margin-bottom: 15px;
 }
 
 .product-card h2 {
@@ -76,9 +75,19 @@
     font-size: 22px;
   }
   .product-card {
-    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
   .btn {
     width: 100%;
   }
+  .product-info {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 }

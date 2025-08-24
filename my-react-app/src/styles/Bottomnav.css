@@ -1,0 +1,9 @@
+@media (max-width: 900px) {
+.bottom-nav{
+    display: flex;
+    padding: 10px;
+    color: white;
+    background-color: rgb(43, 44, 45);
+    flex-direction: column;
+}    
+}
