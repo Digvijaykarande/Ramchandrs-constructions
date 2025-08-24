@@ -54,6 +54,15 @@ function ProductData() {
           <div className="contact-box">
             <h3>Contact Info</h3>
             <p>{product.contact_info || "Not provided"}</p>
+            {product.contact_info && (
+              <a
+                href={`tel:${product.contact_info}`}
+                className="btn call-btn"
+                style={{ marginTop: "10px" }}
+              >
+                Call Now
+              </a>
+            )}
           </div>
 
           <div className="buttons">

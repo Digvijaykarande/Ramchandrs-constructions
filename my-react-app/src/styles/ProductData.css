@@ -76,6 +76,20 @@
   font-size: 1.1rem;
   color: #111;
 }
+.call-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.call-btn:hover {
+  background-color: #218838;
+}
+
 
 .buttons {
   display: flex;
